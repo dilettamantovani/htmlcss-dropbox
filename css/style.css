@@ -24,3 +24,11 @@ header {
 section, footer {
     min-height: 100vh;
 }
+
+.single, .team, .company {
+    min-height: 30vh;
+}
+
+ul {
+    margin-left: 20px;
+}

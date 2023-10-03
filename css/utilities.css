@@ -110,6 +110,47 @@
 .mx-64 { margin: 0 64px; }
 
 
+/* BORDER */
+.b4 { border: 4px; }
+.bt-4 { border-top: 4px; }
+.br-4 { border-right: 4px; }
+.bb-4 { border-bottom: 4px; }
+.bl-4 { border-left: 4px; }
+.by-4 { border: 4px 0; }
+.bx-4 { border: 0 4px; }
+
+.b-8 { border: 8px; }
+.bt-8 { border-top: 8px; }
+.br-8 { border-right: 8px; }
+.bb-8 { border-bottom: 8px; }
+.bl-8 { border-left: 8px; }
+.by-8 { border: 8px 0; }
+.bx-8 { border: 0 8px; }
+
+.b-16 { border: 16px; }
+.bt-16 { border-top: 16px; }
+.br-16 { border-right: 16px; }
+.bb-16 { border-bottom: 16px; }
+.bl-16 { border-left: 16px; }
+.by-16 { border: 16px 0; }
+.bx-16 { border: 0 16px; }
+
+.b-32 { border: 32px; }
+.bt-32 { border-top: 32px; }
+.br-32 { border-right: 32px; }
+.bb-32 { border-bottom: 32px; }
+.bl-32 { border-left: 32px; }
+.by-32 { border: 32px 0; }
+.bx-32 { border: 0 32px; }
+
+.b-64 { border: 64px; }
+.bt-64 { border-top: 64px; }
+.br-64 { border-right: 64px; }
+.bb-64 { border-bottom: 64px; }
+.bl-64 { border-left: 64px; }
+.by-64 { border: 64px 0; }
+.bx-64 { border: 0 64px; }
+
 /* COLOR */
 .bg-orange { background-color: orange; }
 .bg-lightblue { background-color:#B4D0E7; }
