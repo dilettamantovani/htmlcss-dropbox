@@ -12,3 +12,15 @@ header {
     z-index: 999;
     top: 0;
 }
+
+.header-logo {
+    margin: 0 25px;
+}
+
+.jumbotron {
+    margin-bottom: 30vh;
+}
+
+section, footer {
+    min-height: 100vh;
+}
