@@ -56,8 +56,8 @@
                 </div>
             </section>
 
-            <!-- PAYMENT PLANS -->
-            <section class="payment-plans bg-white">
+            <!-- BILLING PLANS -->
+            <section class="billing-plans bg-white">
                 <h2 class="w-60 m-auto">Trova il piano business che fa per te</h2>
                 
                 <div class="radios d-flex w-60">
@@ -73,40 +73,101 @@
                 </div>
 
                 <div class="plans d-flex justify-between m-auto w-60">
-                    <div id="single" class="plan-column w-30 b-4">
-                        <div class="bb-4">Singolo</div>
+                    <div id="single" class="plan-column w-30">
+                        <div class="column-head py-6 mb-16"><i class="fa-solid fa-user pr-6"></i>Singolo</div>
 
-                        <div>
-                            <span>Professional</span>
-                            <span>€ 12.00</span>
-                            <span>/mese</span>
+                        <div class="plan-info">
+                            <div>
+                                <h3>Professional</h3>
+                                <div>€ 12.00</div>
+                                <div>/mese</div>
+                            </div>
+
+                            <div class="plan-list d-flex flex-column mb-32">
+                                <span class="list-item d-flex align-baseline"><i class="fa-solid fa-user pr-6"></i>1 utente</span>
+                                <span class="list-item d-flex align-baseline"><i class="fa-solid fa-folder pr-6"></i>5 TB di spazio di archiviazione sicuro</span>
+                                <span class="list-item d-flex align-baseline"><i class="fa-sharp fa-solid fa-share-nodes pr-6"></i>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                            </div>
+
+                            <div id="trial"><a id="trial-btn" class="button bg-blue c-white" href="#">Prova gratis per 30 giorni</a></div>
+
+                            <div class="my-32">oppure <a href="#">aquista ora</a></div>
+
+                            <div class="top-border pt-32 p-relative">
+                                <div class="border-gray p-absolute"></div>
+                                <h4 class="pb-32">Punti salienti del piano</h4>
+                                <div class="plan-checks d-flex flex-column">
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Invia file fino a 100GB con Dropbox Transfert</span>
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Cartelle offline su dispositivi mobili</span>
+                                </div>
+                            </div>
                         </div>
-
-                        <div>
-                            <ul>
-                                <li>1 utente</li>
-                                <li>5 TB di spazio di archiviazione sicuro</li>
-                                <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <a class="button trial" href="#">acquista ora</a>
-                        </div>
-
-                        <div>
-                            <span>oppure</span>
-                            <a href="#"></a>
-                        </div>
-
                     </div>
 
-                    <div id="team" class="plan-column w-30 bg-lightblue">
+                    <div id="team" class="plan-column w-30">
+                        <div class="column-head py-6 mb-16"><i class="fa-solid fa-user pr-6"></i>Team</div>
 
+                        <div class="plan-info">
+                            <div>
+                                <h3>Advanced</h3>
+                                <div>€ 18.00</div>
+                                <div>/utente/mese</div>
+                            </div>
+
+                            <div class="plan-list d-flex flex-column mb-32">
+                                <span class="list-item d-flex align-baseline"><i class="fa-solid fa-user pr-6"></i>3 o più utenti</span>
+                                <span class="list-item d-flex align-baseline"><i class="fa-solid fa-folder pr-6"></i>Tutto lo spazio di cui ha bisogno il tuo team</span>
+                                <span class="list-item d-flex align-baseline"><i class="fa-sharp fa-solid fa-share-nodes pr-6"></i>Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</span>
+                            </div>
+
+                            <div id="trial"><a id="trial-btn" class="button bg-blue c-white" href="#">Prova gratis per 30 giorni</a></div>
+
+                            <div class="my-32">oppure <a href="#">aquista ora</a></div>
+
+                            <div class="top-border pt-32 p-relative">
+                                <div class="border-gray p-absolute"></div>
+                                <h4 class="pb-32">Punti salienti del piano</h4>
+                                <div class="plan-checks d-flex flex-column">
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Nesusn limite di spazio per i file</span>
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Cartelle offline su dispositivi mobili</span>
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Risparmio del 50% rispetto alle iscrizioni singole</span>
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Possibilità di inserire nuovi membri esterni del team</span>
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Gestione dei permessi in base ai ruoli</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div id="company" class="plan-column w-30 bg-grey">
+                    <div id="company" class="plan-column w-30">
+                        <div class="column-head py-6 mb-16"><i class="fa-solid fa-user pr-6"></i>Azienda</div>
 
+                        <div class="plan-info">
+                            <div>
+                                <h3>Enterprise</h3>
+                                <div>Contattaci</div>
+                                <div id="blank"></div>
+                            </div>
+
+                            <div class="plan-list d-flex flex-column mb-32">
+                                <span class="list-item d-flex align-baseline"><i class="fa-solid fa-user pr-6"></i>10 o più utenti</span>
+                                <span class="list-item d-flex align-baseline"><i class="fa-solid fa-folder pr-6"></i>Soluzioni personalizzabili per la tua azienda</span>
+                                <span class="list-item d-flex align-baseline"><i class="fa-sharp fa-solid fa-share-nodes pr-6"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                            </div>
+
+                            <div id="trial"><a id="trial-btn" class="button bg-blue c-white" href="#">Contattaci</a></div>
+
+                            <div class="my-32">oppure <a href="#">aquista ora</a></div>
+
+                            <div class="top-border pt-32 p-relative">
+                                <div class="border-gray p-absolute"></div>
+                                <h4 class="pb-32">Punti salienti del piano</h4>
+                                <div class="plan-checks d-flex flex-column">
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Cartelle offline su dispositivi mobili</span>
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Servizio assistenza 24/h</span>
+                                    <span class="d-flex align-baseline"><i class="fa-solid fa-check pr-6"></i>Possibilità di personalizzazione totale</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

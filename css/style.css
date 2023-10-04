@@ -60,12 +60,12 @@ main {
     margin-bottom: -85px;
 }
 
-/* payment plans */
+/* billing plans */
 section, footer {
     min-height: 100vh;
 }
 
-.payment-plans h2 {
+.billing-plans h2 {
     font-size: 2.5em;
 }
 
@@ -83,8 +83,44 @@ section, footer {
     border: 2px solid lightgray;
 }
 
-
-
-ul {
-    margin-left: 20px;
+.plan-column span {
+    font-size: 0.9em;
+    padding: 8px 0;
 }
+
+.column-head {
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+}
+
+.plan-info {
+    padding: 8px 24px 24px 24px;
+}
+
+#blank {
+    height: 24.8px;
+}
+
+#trial {
+    text-align: center;
+}
+
+#trial-btn {
+    padding: 0.3em 1.5em;
+}
+
+.top-border {
+    border: 2px solid white;
+}
+
+.border-gray {
+    top: -2px;
+    background-color: lightgray;
+    width: 60px;
+    height: 0.1em;
+}
+
+.fa-check {
+    color: #0061FF;
+}
+

@@ -7,6 +7,7 @@
 .justify-between {justify-content: space-between;}
 .justify-evenly {justify-content: space-evenly;}
 .align-center { align-items: center; }
+.align-baseline { align-items: baseline; }
 
 
 /* POSITION */
@@ -42,6 +43,14 @@
 .pl-4 { padding-left: 4px; }
 .py-4 { padding: 4px 0; }
 .px-4 { padding: 0 4px; }
+
+.p-6 { padding: 6px; }
+.pt-6 { padding-top: 6px; }
+.pr-6 { padding-right: 6px; }
+.pb-6 { padding-bottom: 6px; }
+.pl-6 { padding-left: 6px; }
+.py-6 { padding: 6px 0; }
+.px-6 { padding: 0 6px; }
 
 .p-8 { padding: 8px; }
 .pt-8 { padding-top: 8px; }
