@@ -76,6 +76,8 @@ section, footer {
 
 .radio-btn {
     vertical-align: middle;
+    accent-color: #0061FF;
+    color: invert;
 }
 
 .plan-column {
@@ -95,10 +97,6 @@ section, footer {
 
 .plan-info {
     padding: 8px 24px 24px 24px;
-}
-
-#blank {
-    height: 24.8px;
 }
 
 #trial {
