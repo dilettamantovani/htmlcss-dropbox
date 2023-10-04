@@ -71,7 +71,7 @@ main {
 }
 
 /* billing plans */
-.companies, .FAQ, footer {
+.companies, .FAQ {
     min-height: 100vh;
 }
 
@@ -136,4 +136,19 @@ main {
 
 /* half mln */
 #findOut { display: inline-block;}
+
+
+/* free trial */
+#startTrial {
+    padding: 0.4em 3em
+}
+
+                            /*** FOOTER ***/
+ul {
+    list-style: none;
+}
+
+ul > h3 {
+    padding-bottom: 16px;
+}
 
