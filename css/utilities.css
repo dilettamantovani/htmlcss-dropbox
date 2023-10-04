@@ -160,14 +160,23 @@
 .by-64 { border: 64px 0; }
 .bx-64 { border: 0 64px; }
 
+
+/* BORDER-STYLES */
+.b-lightgray { border: 2px solid lightgray; }
+.bb-lightgray { border-bottom: 2px solid lightgray; }
+
+.b-white { border: 2px solid white; }
+
+
 /* COLORS */
 .bg-lightblue { background-color:#B4D0E7; }
+.bg-lightgray { background-color: lightgray;}
 .bg-blue {background-color: #0061FF;}
 .bg-black {background-color: black;}
 .bg-white {background-color: white;}
 .bg-grey {background-color: grey;}
 .bg-yellow {background-color: yellow;}
-.bg-pink {background-color: pink;}
 
 .c-white { color: white; }
 .c-gray { color: gray;}
+.c-blue { color: #0061FF;}
