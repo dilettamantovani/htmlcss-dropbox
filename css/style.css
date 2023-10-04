@@ -156,12 +156,17 @@ main {
 }
 
 .member-box img {
-    width: 60%;
+    width: 45%;
     filter: invert(1);
 }
 
+#designit {
+    border: 1em solid #D1E9CD;
+}
+
 #centralSquare {
-    overflow-y: scroll;
+    overflow: auto;
+    height: 65vh;
 }
 
 #centralSquare > p {
