@@ -4,26 +4,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/utilities.css">
         <title>Dropbox</title>
     </head>
     <body>
-        <header class="d-flex p-fixed w-100 p-8 align-center bg-orange">
-            <img class="header-logo " src="img/logo-small.png" alt="Dropbox logo">
+        <header class="d-flex p-fixed w-100 p-8 align-center bg-white">
+            <a href="#">
+                <img class="header-logo " src="img/logo-small.png" alt="Dropbox logo">
+            </a>
             
             <div class="flex-container d-flex justify-between w-100">
                 <div>
-                    <a href="#" class="header-link">Perché Dropbox</a>
-                    <a href="#" class="header-link">Funzioni</a>
-                    <a href="#" class="header-link">Piani e prezzi</a>
+                    <a href="#" class="header-link mx-16">Perché Dropbox</a>
+                    <a href="#" class="header-link mx-16">Funzioni</a>
+                    <a href="#" class="header-link mx-16">Piani e prezzi</a>
                 </div>       
     
                 <div>
-                    <a href="#" class="header-link">Supporto</a>
-                    <a href="#" class="header-link">Contatta l'ufficio vendite</a>
-                    <a href="#" class="header-link">Accedi</a>
-                    <a class="button bg-blue" href="#">Inizia</a>
+                    <a href="#" class="header-link mx-16">Supporto</a>
+                    <a href="#" class="header-link mx-16">Contatta l'ufficio vendite</a>
+                    <a href="#" class="header-link mx-16">Accedi</a>
+                    <a class="button bg-blue c-white" href="#">Inizia</a>
                 </div>    
 
             </div>
@@ -34,42 +39,41 @@
 
             <!-- JUMBOTRON -->
             <section class="jumbotron bg-lightblue p-16">
-                <h1 class="w-75 m-auto">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <h1 class="w-70 m-auto">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 
-                <div class="jumbocontent d-flex w-75 m-auto">
+                <div class="jumbocontent d-flex w-70 m-auto">
                     <div class="d-flex flex-column justify-around align-start w-30">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                        <a class="button bg-blue" href="#">Inizia la tua prova gratuita</a>
+                        <a class="button bg-blue c-white" href="#">Inizia la tua prova gratuita</a>
                         <p>Annulla in qualsiasi momento</p>
-                        <div>
-                            <i class="fa-solid fa-arrow-down"></i>
-                        </div>
+                        <i id="bigArrow" class="fa-solid fa-arrow-down mt-32"></i>
                     </div>
 
-                    <div class="p-relative w-70">
-                        <img class="jumbopic p-absolute w-100" src="img/jumbo.png" alt="jumbo pic">
+                    <div class="w-70">
+                        <img class="jumbopic w-100" src="img/jumbo.png" alt="Dropbox App UI">
                     </div>
 
                 </div>
             </section>
 
-            <section class="payment-plans bg-pink">
+            <!-- PAYMENT PLANS -->
+            <section class="payment-plans bg-white">
                 <h2 class="w-60 m-auto">Trova il piano business che fa per te</h2>
                 
-                <div class="radios d-flex w-60 m-auto">
+                <div class="radios d-flex w-60">
                     <div>
-                        <input type="radio" id="Fatturazione mensile" name="billing" value="Fatturazione mensile"/>
+                        <input type="radio" id="Fatturazione mensile" name="billing" value="Fatturazione mensile" class="radio-btn"/>
                         <label for="Fatturazione mensile">Fatturazione mensile</label>
                       </div>
                     
                       <div>
-                        <input type="radio" id="Fatturazione annuale" name="billing" value="Fatturaizone anuale" />
+                        <input type="radio" id="Fatturazione annuale" name="billing" value="Fatturazione annuale" class="radio-btn ml-64"/>
                         <label for="Fatturazione annuale">Fatturazione annuale</label>
                       </div>
                 </div>
 
-                <div class="plans d-flex m-auto w-60">
-                    <div class="single w-30 b-4 bg-orange">
+                <div class="plans d-flex justify-between m-auto w-60">
+                    <div id="single" class="plan-column w-30 b-4">
                         <div class="bb-4">Singolo</div>
 
                         <div>
@@ -97,42 +101,47 @@
 
                     </div>
 
-                    <div class="team w-30 bg-lightblue">
+                    <div id="team" class="plan-column w-30 bg-lightblue">
 
                     </div>
 
-                    <div class="company w-30 bg-grey">
+                    <div id="company" class="plan-column w-30 bg-grey">
 
                     </div>
                 </div>
             </section>
 
-
-            <section class="enterprise bg-white">
+            <!-- TEAM ENTERPRISE -->
+            <section class="enterprise bg-pink">
 
             </section>
 
-
+            <!-- FIND PARTNERS -->
             <section class="partner bg-grey">
 
             </section>
 
-
+            <!-- OPERATIONS -->
             <section class="operations bg-pink">
 
             </section>
 
+            <!-- MORE THAN -->
+            <section class="half-mln bg-grey">
 
+            </section>
+
+            <!-- MEMBERS -->
             <section class="companies bg-grey">
 
             </section>
 
-
+            <!-- FREE TRIAL -->
             <section class="free-trial bg-lightblue">
 
             </section>
 
-
+            <!-- FAQs -->
             <section class="FAQ bg-white">
 
             </section>

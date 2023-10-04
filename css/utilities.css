@@ -31,7 +31,7 @@
 
 
 /* AUTO */
-.m-auto {margin: auto;}
+.m-auto {margin: 0 auto;}
 
 
 /* PADDING */
@@ -151,8 +151,7 @@
 .by-64 { border: 64px 0; }
 .bx-64 { border: 0 64px; }
 
-/* COLOR */
-.bg-orange { background-color: orange; }
+/* COLORS */
 .bg-lightblue { background-color:#B4D0E7; }
 .bg-blue {background-color: #0061FF;}
 .bg-black {background-color: black;}
@@ -160,3 +159,5 @@
 .bg-grey {background-color: grey;}
 .bg-yellow {background-color: yellow;}
 .bg-pink {background-color: pink;}
+
+.c-white { color: white; }
