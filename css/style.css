@@ -5,17 +5,28 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Titillium Web', sans-serif;
-}
+body { font-family: 'Titillium Web', sans-serif; }
 
 .button {
     width: fit-content;
-    width: -moz-fit-content;
     padding: 0.5em 1em;
 }
 
-/*** HEADER ***/
+h2 { 
+    font-size: 2.5em; 
+    line-height: 1.2em;
+}
+
+h3 { 
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+#buyNow, #findOut:visited {
+    color: #1B1BF0;
+}
+
+                            /*** HEADER ***/
 header {
     z-index: 999;
     top: 0;
@@ -31,14 +42,14 @@ header {
     color: black;
 }
 
-/*** MAIN ***/
+                            /*** MAIN ***/
 main {
     padding-top: 4em;
 }
 
 /* jumbotron */
 .jumbotron {
-    margin-bottom: 30vh;
+    margin-bottom: 5em;
 }
 
 .jumbotron h1 {
@@ -53,20 +64,15 @@ main {
 
 #bigArrow {
     font-size: 2em;
-    margin-bottom: -16px;
 }
 
 .jumbopic {
-    margin-bottom: -85px;
+    margin-bottom: -64px;
 }
 
 /* billing plans */
-section, footer {
+.companies, .FAQ, footer {
     min-height: 100vh;
-}
-
-.billing-plans h2 {
-    font-size: 2.5em;
 }
 
 .radios {
@@ -112,4 +118,22 @@ section, footer {
     width: 60px;
     height: 0.1em;
 }
+
+/* find partners */
+.partner {
+    margin: 100px 0;
+}
+
+.partner p {
+    font-size: 0.9em;
+    padding: 16px 0 32px;
+}
+
+#partner-btn {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+}
+
+/* half mln */
+#findOut { display: inline-block;}
 

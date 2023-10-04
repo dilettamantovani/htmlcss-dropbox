@@ -2,12 +2,14 @@
 .d-flex { display: flex; }
 .d-inline { display: inline; }
 .flex-column {flex-direction: column;}
+.flex-wrap {flex-wrap: wrap;}
 .justify-center { justify-content: center;}
 .justify-around { justify-content: space-around; }
 .justify-between {justify-content: space-between;}
 .justify-evenly {justify-content: space-evenly;}
 .align-center { align-items: center; }
 .align-baseline { align-items: baseline; }
+.self-center { align-self: center;}
 
 
 /* POSITION */
@@ -167,6 +169,8 @@
 
 .b-white { border: 2px solid white; }
 
+.b-black { border: 2px solid black; }
+
 
 /* COLORS */
 .bg-lightblue { background-color:#B4D0E7; }
@@ -180,3 +184,5 @@
 .c-white { color: white; }
 .c-gray { color: gray;}
 .c-blue { color: #0061FF;}
+.c-black { color: black; }
+.c-wine { color: #61082B}
