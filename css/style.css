@@ -12,6 +12,12 @@ body { font-family: 'Titillium Web', sans-serif; }
     padding: 0.5em 1em;
 }
 
+.button:hover {
+    color: blue;
+    background-color: rgb(136, 211, 237);
+    border: 2px solid blue;
+}
+
 h2 { 
     font-size: 2.5em; 
     line-height: 1.2em;
@@ -41,7 +47,6 @@ header {
     text-decoration: none;
     color: black;
 }
-
                             /*** MAIN ***/
 main {
     padding-top: 4em;
@@ -119,6 +124,10 @@ main {
     height: 0.1em;
 }
 
+.price {
+    font-weight: 800;
+}
+
 /* find partners */
 .partner {
     margin: 100px 0;
@@ -137,6 +146,31 @@ main {
 /* half mln */
 #findOut { display: inline-block;}
 
+/* members */
+.square-container {
+    width: calc(100% / 3);
+}
+
+.member-box {
+    height: 50%;
+}
+
+.member-box img {
+    width: 60%;
+    filter: invert(1);
+}
+
+#centralSquare {
+    overflow-y: scroll;
+}
+
+#centralSquare > p {
+    font-size: 0.9em;
+}
+
+#author {
+    padding-bottom: 9em;
+}
 
 /* free trial */
 #startTrial {
