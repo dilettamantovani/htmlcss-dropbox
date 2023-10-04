@@ -182,6 +182,22 @@ main {
     padding: 0.4em 3em
 }
 
+/* FAQ */
+.hidden {
+    display: none;
+}
+
+.FAQ:hover .hidden {
+    display: block;
+}
+
+.FAQ:hover .fa-angle-down {
+    display: block;
+}
+
+
+
+
                             /*** FOOTER ***/
 ul {
     list-style: none;
@@ -190,4 +206,15 @@ ul {
 ul > h3 {
     padding-bottom: 16px;
 }
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+
 
