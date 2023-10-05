@@ -46,6 +46,8 @@ ul > h3 { padding-bottom: 16px;}
     border: 2px solid blue;
 }
 
+.header-link:hover { border-bottom: 2px solid black; }
+
 .FAQ:hover .hidden { display: block; }
 
 .FAQ:hover .fa-angle-down { display: none; }
@@ -55,8 +57,6 @@ ul > h3 { padding-bottom: 16px;}
                             /*** VISITED ***/
 #buyNow, #findOut:visited { color: #1B1BF0; }
 
-
-
                             /*** CLASSES/ID GENERICS ***/
 .button {
     width: fit-content;
@@ -64,7 +64,6 @@ ul > h3 { padding-bottom: 16px;}
 }
 
 ul { list-style: none; }
-
 
                             /*** HEADER ***/
 header {
@@ -75,6 +74,7 @@ header {
 
 .header-logo { margin: 0 25px; }
 
+.header-link { padding: 20px 0; }
 
                             /*** MAIN ***/
 /* jumbotron */
@@ -167,9 +167,3 @@ header {
 
 /* FAQ */
 .hidden { display: none; }
-
-
-
-
-
-
