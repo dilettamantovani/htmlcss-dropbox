@@ -48,7 +48,7 @@ ul > h3 { padding-bottom: 16px;}
 
 .FAQ:hover .hidden { display: block; }
 
-.FAQ:hover .fa-angle-down { display: block; }
+.FAQ:hover .fa-angle-down { display: none; }
 
 .footer-link:hover { text-decoration: underline}
 
