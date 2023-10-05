@@ -1,4 +1,4 @@
-/*** GENERICS ***/
+                            /*** PAGE GENERICS ***/
 *{
     margin: 0;
     padding: 0;
@@ -7,17 +7,9 @@
 
 body { font-family: 'Titillium Web', sans-serif; }
 
-.button {
-    width: fit-content;
-    padding: 0.5em 1em;
-}
+main { padding-top: 4em; }
 
-.button:hover {
-    color: blue;
-    background-color: rgb(136, 211, 237);
-    border: 2px solid blue;
-}
-
+                            /***HEADINGS***/
 h2 { 
     font-size: 2.5em; 
     line-height: 1.2em;
@@ -28,9 +20,51 @@ h3 {
     line-height: 1em;
 }
 
-#buyNow, #findOut:visited {
-    color: #1B1BF0;
+.jumbotron h1 {
+    font-size: 4.5em;
+    line-height: 1.2em;
+    margin-bottom: 0.7em;
 }
+
+ul > h3 { padding-bottom: 16px;}
+                            
+                            /***LINKS***/
+.header-link, .button {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+                            
+                            /*** HOVER ***/
+.button:hover {
+    color: blue;
+    background-color: rgb(136, 211, 237);
+    border: 2px solid blue;
+}
+
+.FAQ:hover .hidden { display: block; }
+
+.FAQ:hover .fa-angle-down { display: block; }
+
+.footer-link:hover { text-decoration: underline}
+
+                            /*** VISITED ***/
+#buyNow, #findOut:visited { color: #1B1BF0; }
+
+
+
+                            /*** CLASSES/ID GENERICS ***/
+.button {
+    width: fit-content;
+    padding: 0.5em 1em;
+}
+
+ul { list-style: none; }
+
 
                             /*** HEADER ***/
 header {
@@ -39,47 +73,20 @@ header {
     height: 4em;
 }
 
-.header-logo {
-    margin: 0 25px;
-}
+.header-logo { margin: 0 25px; }
 
-.header-link, .button {
-    text-decoration: none;
-    color: black;
-}
+
                             /*** MAIN ***/
-main {
-    padding-top: 4em;
-}
-
 /* jumbotron */
-.jumbotron {
-    margin-bottom: 5em;
-}
+.jumbotron { margin-bottom: 5em; }
 
-.jumbotron h1 {
-    font-size: 4.5em;
-    line-height: 1.2em;
-    margin-bottom: 0.7em;
-}
+.jumbotext { margin-bottom: 1.5em; }
 
-.jumbotext {
-    margin-bottom: 1.5em;
-}
+#bigArrow { font-size: 2em; }
 
-#bigArrow {
-    font-size: 2em;
-}
-
-.jumbopic {
-    margin-bottom: -64px;
-}
+.jumbopic { margin-bottom: -64px; }
 
 /* billing plans */
-.companies, .FAQ {
-    min-height: 100vh;
-}
-
 .radios {
     font-size: 0.8em;
     margin: 32px auto;
@@ -91,26 +98,18 @@ main {
     color: invert;
 }
 
-.plan-column {
-    min-height: 30vh;
-}
+.plan-column { min-height: 30vh; }
 
 .plan-column span {
     font-size: 0.9em;
     padding: 8px 0;
 }
 
-.column-head {
-    text-align: center;
-}
+.column-head { text-align: center; }
 
-.plan-info {
-    padding: 8px 24px 24px 24px;
-}
+.plan-info { padding: 8px 24px 24px 24px; }
 
-#trial {
-    text-align: center;
-}
+#trial { text-align: center; }
 
 #trial-btn {
     padding: 0.3em 1.5em;
@@ -124,14 +123,10 @@ main {
     height: 0.1em;
 }
 
-.price {
-    font-weight: 800;
-}
+.price { font-weight: 800; }
 
 /* find partners */
-.partner {
-    margin: 100px 0;
-}
+.partner { margin: 100px 0; }
 
 .partner p {
     font-size: 0.9em;
@@ -147,74 +142,34 @@ main {
 #findOut { display: inline-block;}
 
 /* members */
-.square-container {
-    width: calc(100% / 3);
-}
+.square-container { width: calc(100% / 3); }
 
-.member-box {
-    height: 50%;
-}
+.member-box { height: 50%; }
 
 .member-box img {
     width: 45%;
     filter: invert(1);
 }
 
-#designit {
-    border: 1em solid #D1E9CD;
-}
+#designit { border: 1em solid #D1E9CD; }
 
 #centralSquare {
     overflow: auto;
     height: 65vh;
 }
 
-#centralSquare > p {
-    font-size: 0.9em;
-}
+#centralSquare > p { font-size: 0.9em; }
 
-#author {
-    padding-bottom: 9em;
-}
+#author { padding-bottom: 9em; }
 
 /* free trial */
-#startTrial {
-    padding: 0.4em 3em
-}
+#startTrial { padding: 0.4em 3em }
 
 /* FAQ */
-.hidden {
-    display: none;
-}
-
-.FAQ:hover .hidden {
-    display: block;
-}
-
-.FAQ:hover .fa-angle-down {
-    display: block;
-}
+.hidden { display: none; }
 
 
 
-
-                            /*** FOOTER ***/
-ul {
-    list-style: none;
-}
-
-ul > h3 {
-    padding-bottom: 16px;
-}
-
-.footer-link {
-    text-decoration: none;
-    color: white;
-}
-
-.footer-link:hover {
-    text-decoration: underline;
-}
 
 
 
